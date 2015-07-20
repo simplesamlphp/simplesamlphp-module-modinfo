@@ -12,9 +12,8 @@ $this->includeAtTemplateBase('includes/header.php');
 
 <table class="modules" style="width: 100%">
 <tr>
-<th colspan="2"><?php echo($this->t('{modinfo:modinfo:modlist_name}')); ?></th>
+<th><?php echo($this->t('{modinfo:modinfo:modlist_name}')); ?></th>
 <th ><?php echo($this->t('{modinfo:modinfo:modlist_status}')); ?></th>
-<th colspan="2"><?php echo($this->t('{modinfo:modinfo:version}')); ?></th>
 </tr>
 <?php
 ksort($this->data['modules']);
@@ -22,42 +21,17 @@ ksort($this->data['modules']);
 $i = 0;
 foreach($this->data['modules'] as $id => $info) {
 	echo('<tr class="' . ($i++ % 2 == 0 ? 'odd' : 'even') . '">');
-	
-	
-	if (isset($info['def'])) {
-		echo('<td><a href="http://simplesamlphp.org/modules/' . htmlspecialchars($id) . '">' . htmlspecialchars($info['def']->def['name']) . '</a></td>');		
-	} else {
-		echo('<td> </td>');
-	}
-	
-	
-	echo('<td><tt>' . htmlspecialchars($id) . '</tt></td>');
-	
+	echo('<td><tt>' . htmlspecialchars($id) . '</tt></td>'."\n");
 	
 	if($info['enabled']) {
 		echo('<td><img src="/' . $this->data['baseurlpath'] . 'resources/icons/silk/accept.png" alt="' .
-			htmlspecialchars($this->t('{modinfo:modinfo:modlist_enabled}')) . '" /></td>');
+			htmlspecialchars($this->t('{modinfo:modinfo:modlist_enabled}')) . '" /></td>'."\n");
 	} else {
 		echo('<td><img src="/' . $this->data['baseurlpath'] . 'resources/icons/silk/delete.png" alt="' .
-			htmlspecialchars($this->t('{modinfo:modinfo:modlist_disabled}')) . '" /></td>');
+			htmlspecialchars($this->t('{modinfo:modinfo:modlist_disabled}')) . '" /></td>'."\n");
 	}
 	
-	if (isset($info['def'])) {
-		echo('<td>' . htmlspecialchars($info['def']->getVersion()) . ' (' .htmlspecialchars($info['def']->getBranch()) . ')</td>');	
-		if ($info['def']->updateExists()) {
-			echo('<td><img style="display: inline" src="/' . $this->data['baseurlpath'] . 'resources/icons/silk/delete.png" alt="' .
-				htmlspecialchars($this->t('{modinfo:modinfo:update_exists}')) . '" /> ' . 
-				htmlspecialchars($this->t('{modinfo:modinfo:update_exists}')) . '</td>');		
-		} else {
-			echo('<td><img style="display: inline" src="/' . $this->data['baseurlpath'] . 'resources/icons/silk/accept.png" alt="' .
-				htmlspecialchars($this->t('{modinfo:modinfo:latest_version}')) . '" /> ' . 
-				htmlspecialchars($this->t('{modinfo:modinfo:latest_version}')) . '</td>');
-		}
-	} else {
-		echo('<td colspan="2"> </td>');
-	}
-	
-	echo('</tr>');
+	echo('</tr>'."\n");
 }
 ?>
 </table>
