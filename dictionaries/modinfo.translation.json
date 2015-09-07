@@ -26,7 +26,8 @@
 		"sr": "Raspolo\u017eivi moduli",
 		"ro": "Module disponibile",
 		"cs": "Dostupn\u00e9 moduly",
-		"eu": "Modulu erabilgarriak"
+		"eu": "Modulu erabilgarriak",
+		"af": "Beskikbare modules"
 	},
 	"modlist_name": {
 		"no": "Navn",
@@ -55,7 +56,8 @@
 		"sr": "Naziv",
 		"ro": "Nume",
 		"cs": "Jm\u00e9no",
-		"eu": "Izena"
+		"eu": "Izena",
+		"af": "Naam"
 	},
 	"modlist_status": {
 		"no": "Status",
@@ -84,7 +86,8 @@
 		"sr": "Status",
 		"ro": "Stare",
 		"cs": "Stav",
-		"eu": "Egoera"
+		"eu": "Egoera",
+		"af": "Status"
 	},
 	"modlist_enabled": {
 		"no": "P\u00e5sl\u00e5tt",
@@ -113,7 +116,8 @@
 		"sr": "Omogu\u0107en",
 		"ro": "Activat\/Disponibil",
 		"cs": "Povolen\u00fd",
-		"eu": "Aktibatu"
+		"eu": "Aktibatu",
+		"af": "Geaktiveer"
 	},
 	"modlist_disabled": {
 		"no": "Avsl\u00e5tt",
@@ -142,6 +146,31 @@
 		"sr": "Onemogu\u0107en",
 		"ro": "Dezactivat\/Nedisponibil",
 		"cs": "Zak\u00e1zan\u00fd",
-		"eu": "Desaktibatu"
+		"eu": "Desaktibatu",
+		"af": "Gedeaktiveer"
+	},
+	"latest_version": {
+		"es": "Actualizado",
+		"ru": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u043e",
+		"zh-tw": "\u66f4\u65b0",
+		"nl": "Bijgewerkt",
+		"da": "Opdateret",
+		"af": "Opgradeer"
+	},
+	"update_exists": {
+		"es": "Actualizaci&oacute;n disponible",
+		"ru": "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u043e \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435",
+		"zh-tw": "\u5b58\u5728\u66f4\u65b0",
+		"nl": "Update beschikbaar",
+		"da": "Opdatering tilg\u00e6ngelig",
+		"af": "Opgradering beskikbaar"
+	},
+	"version": {
+		"es": "Versi&oacute;n",
+		"ru": "\u0412\u0435\u0440\u0441\u0438\u044f",
+		"zh-tw": "\u7248\u672c",
+		"nl": "Versie",
+		"da": "Version",
+		"af": "Weergawe"
 	}
 }
