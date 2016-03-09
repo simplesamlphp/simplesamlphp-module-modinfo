@@ -1,13 +1,13 @@
 <?php
 
-$modules = SimpleSAML_Module::getModules();
+$modules = SimpleSAML\Module::getModules();
 sort($modules);
 
 $modinfo = array();
 
 foreach($modules as $m) {
 	$modinfo[$m] = array(
-		'enabled' => SimpleSAML_Module::isModuleEnabled($m),
+		'enabled' => SimpleSAML\Module::isModuleEnabled($m),
 	);
 }
 

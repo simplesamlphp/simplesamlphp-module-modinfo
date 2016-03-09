@@ -9,7 +9,7 @@ function modinfo_hook_frontpage(&$links) {
 	assert('array_key_exists("links", $links)');
 
 	$links['config'][] = array(
-		'href' => SimpleSAML_Module::getModuleURL('modinfo/'),
+		'href' => SimpleSAML\Module::getModuleURL('modinfo/'),
 		'text' => '{modinfo:modinfo:modlist_header}',
 		);
 
