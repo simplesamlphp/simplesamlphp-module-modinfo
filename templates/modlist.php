@@ -23,7 +23,7 @@ foreach ($this->data['modules'] as $id => $info) {
 
     if ($info['enabled']) {
         echo '<td><img src="/'.$this->data['baseurlpath'].'resources/icons/silk/accept.png" alt="'.
-            htmlspecialchars($this->t('{modinfo:modinfo:modlist_enabled}')).'" /></td>'."\n);
+            htmlspecialchars($this->t('{modinfo:modinfo:modlist_enabled}')).'" /></td>'."\n";
     } else {
         echo '<td><img src="/'.$this->data['baseurlpath'].'resources/icons/silk/delete.png" alt="'.
             htmlspecialchars($this->t('{modinfo:modinfo:modlist_disabled}')).'" /></td>'."\n";
