@@ -1,0 +1,8 @@
+msgid "Available modules"
+msgstr "Modulu erabilgarriak"
+
+msgid "Name"
+msgstr "Izena"
+
+msgid "Status"
+msgstr "Egoera"

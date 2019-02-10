@@ -1,0 +1,27 @@
+{% extends "base.twig" %}
+
+{% block content %}
+<h2>{{ 'Available modules'|trans }}</h2>
+
+<table class="modules" style="width: 100%; text-align: left">
+    <tr>
+        <th>{{ 'Name'|trans }}</th>
+        <th>{{ 'Status'|trans }}</th>
+    </tr>
+{% for id, info in modules %}
+{% if loop.index0 is even %}
+    {% set class = 'even' %}
+{% else %}
+    {% set class = 'odd' %}
+{% endif %}
+    <tr class="{{ class }} {% if info.enabled %}enabled{% else %}disabled{% endif %}">
+        <td><tt>{{ id|escape }}</tt></td>
+    {% if info.enabled %}
+        <td><i class="fa fa-check"></i></td>
+    {% else %}
+        <td><i class="fa fa-ban"></i></td>
+    {% endif %}
+{% endfor %}
+    </tr>
+</table>
+{% endblock %}

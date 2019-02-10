@@ -1,0 +1,8 @@
+msgid "Available modules"
+msgstr "Tilgjengelige moduler"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Status"
+msgstr "Navn"

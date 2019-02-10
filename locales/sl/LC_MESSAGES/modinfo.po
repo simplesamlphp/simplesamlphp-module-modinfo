@@ -1,0 +1,8 @@
+msgid "Available modules"
+msgstr "Razpolo\u017eljivi moduli"
+
+msgid "Name"
+msgstr "Ime"
+
+msgid "Status"
+msgstr "Status"

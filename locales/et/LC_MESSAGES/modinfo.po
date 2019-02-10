@@ -1,0 +1,8 @@
+msgid "Available modules"
+msgstr "Saadaolevad moodulid"
+
+msgid "Name"
+msgstr "Nimi"
+
+msgid "Status"
+msgstr "Olek"

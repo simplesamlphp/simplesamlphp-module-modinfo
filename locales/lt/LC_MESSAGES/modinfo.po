@@ -1,0 +1,8 @@
+msgid "Available modules"
+msgstr "Esami moduliai"
+
+msgid "Name"
+msgstr "Pavadinimas"
+
+msgid "Status"
+msgstr "B\u016bsena"

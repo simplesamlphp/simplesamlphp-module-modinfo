@@ -1,0 +1,8 @@
+msgid "Available modules"
+msgstr "Raspolo\u017eivi moduli"
+
+msgid "Name"
+msgstr "Naziv"
+
+msgid "Status"
+msgstr "Status"

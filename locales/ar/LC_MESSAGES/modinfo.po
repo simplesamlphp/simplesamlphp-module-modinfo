@@ -1,0 +1,8 @@
+msgid "Available modules"
+msgstr "\u0646\u0645\u0627\u0630\u062c \u0645\u062a\u0648\u0641\u0631\u0629"
+
+msgid "Name"
+msgstr "\u0627\u0644\u0627\u0633\u0645"
+
+msgid "Status"
+msgstr "\u0627\u0644\u062d\u0627\u0644\u0629"

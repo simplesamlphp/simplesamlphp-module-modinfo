@@ -1,13 +1,13 @@
 <?php
 
-$modules = SimpleSAML\Module::getModules();
+$modules = SimpleSAML_Module::getModules();
 sort($modules);
 
 $modinfo = array();
 
 foreach($modules as $m) {
 	$modinfo[$m] = array(
-		'enabled' => SimpleSAML\Module::isModuleEnabled($m),
+		'enabled' => SimpleSAML_Module::isModuleEnabled($m),
 	);
 }
 
@@ -15,4 +15,5 @@ foreach($modules as $m) {
 $config = SimpleSAML_Configuration::getInstance();
 $t = new SimpleSAML_XHTML_Template($config, 'modinfo:modlist.php');
 $t->data['modules'] = $modinfo;
+ksort($t->data['modules']);
 $t->show();

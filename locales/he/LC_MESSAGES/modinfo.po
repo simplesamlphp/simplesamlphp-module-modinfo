@@ -1,0 +1,8 @@
+msgid "Available modules"
+msgstr "\u05de\u05d5\u05d3\u05d5\u05dc\u05d9\u05dd \u05d6\u05de\u05d9\u05e0\u05d9\u05dd"
+
+msgid "Name"
+msgstr "\u05e9\u05dd"
+
+msgid "Status"
+msgstr "\u05de\u05e6\u05d1"

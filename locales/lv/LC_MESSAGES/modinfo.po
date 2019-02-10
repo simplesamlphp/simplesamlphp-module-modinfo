@@ -1,0 +1,8 @@
+msgid "Available modules"
+msgstr "Pieejamie modu\u013ci"
+
+msgid "Name"
+msgstr "V\u0101rds"
+
+msgid "Status"
+msgstr "Statuss"

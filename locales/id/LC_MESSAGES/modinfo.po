@@ -1,0 +1,8 @@
+msgid "Available modules"
+msgstr "Module-module yang tersedia"
+
+msgid "Name"
+msgstr "Nama"
+
+msgid "Status"
+msgstr "Status"
