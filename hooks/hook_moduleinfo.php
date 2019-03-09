@@ -4,6 +4,7 @@
  * This hook lets the module describe itself.
  *
  * @param array &$moduleinfo  The links on the frontpage, split into sections.
+ * @return void
  */
 function modinfo_hook_moduleinfo(&$moduleinfo)
 {
