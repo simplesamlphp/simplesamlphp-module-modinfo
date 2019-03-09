@@ -6,7 +6,6 @@
 >
     <projectFiles>
         <directory name="bin" />
-        <directory name="lib" />
         <directory name="hooks" />
         <directory name="templates" />
         <directory name="www" />
