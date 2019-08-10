@@ -1,7 +1,6 @@
 <?php
 $finder = PhpCsFixer\Finder::create()
     ->in([
-        __DIR__ . '/bin',
         __DIR__ . '/hooks',
         __DIR__ . '/tests',
         __DIR__ . '/config-templates',
