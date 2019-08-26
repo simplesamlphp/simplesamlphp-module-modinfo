@@ -1,13 +1,6 @@
 <?php
 $this->includeAtTemplateBase('includes/header.php');
-
-#$icon_enabled  = '<img src="/'.$this->data['baseurlpath'].'resources/icons/silk/accept.png" alt="'.
-#htmlspecialchars($this->t(...)" />';
-#$icon_disabled = '<img src="/'.$this->data['baseurlpath'].'resources/icons/silk/delete.png" alt="disabled" />';
-
 ?>
-
-<h2><?php echo($this->data['header']); ?></h2>
 
 <table class="modules" style="width: 100%">
 <tr>
