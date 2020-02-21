@@ -6,10 +6,9 @@
  * @param array &$moduleinfo  The links on the frontpage, split into sections.
  * @return void
  */
-function modinfo_hook_moduleinfo(&$moduleinfo)
+function modinfo_hook_moduleinfo(array &$moduleinfo): void
 {
-    assert('is_array($moduleinfo)');
-    assert('array_key_exists("info", $moduleinfo)');
+    assert(array_key_exists("info", $moduleinfo));
 
     $moduleinfo['info']['modinfo'] = [
         'name' => ['en' => 'Module information'],

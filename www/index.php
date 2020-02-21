@@ -13,7 +13,7 @@ foreach ($modules as $m) {
 
 
 $config = \SimpleSAML\Configuration::getInstance();
-$t = new \SimpleSAML\XHTML\Template($config, 'modinfo:modlist.php');
+$t = new \SimpleSAML\XHTML\Template($config, 'modinfo:modlist.twig');
 $t->data['modules'] = $modinfo;
 ksort($t->data['modules']);
-$t->show();
+$t->send();

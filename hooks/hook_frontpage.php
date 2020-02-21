@@ -6,10 +6,9 @@
  * @param array &$links  The links on the frontpage, split into sections.
  * @return void
  */
-function modinfo_hook_frontpage(&$links)
+function modinfo_hook_frontpage(array &$links): void
 {
-    assert('is_array($links)');
-    assert('array_key_exists("links", $links)');
+    assert(array_key_exists("links", $links));
 
     $links['config'][] = [
         'href' => SimpleSAML\Module::getModuleURL('modinfo/'),
