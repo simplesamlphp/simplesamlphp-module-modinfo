@@ -2,6 +2,7 @@
     "name": "simplesamlphp/simplesamlphp-module-modinfo",
     "description": "A very straightforward module for SimpleSAMLphp that displays the list of modules and their status in the web interface.",
     "type": "simplesamlphp-module",
+    "license": "LGPL-2.1-or-later",
     "keywords": [ "simplesamlphp", "modules" ],
     "authors": [
         {
