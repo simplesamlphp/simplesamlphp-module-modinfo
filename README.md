@@ -1,6 +1,6 @@
-![Build Status](https://github.com/simplesamlphp/simplesamlphp-module-moddinfo/workflows/CI/badge.svg?branch=master)
-[![Coverage Status](https://codecov.io/gh/simplesamlphp/simplesamlphp-module-moddinfo/branch/master/graph/badge.svg)](https://codecov.io/gh/simplesamlphp/simplesamlphp-module-moddinfo)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/simplesamlphp/simplesamlphp-module-moddinfo/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/simplesamlphp/simplesamlphp-module-moddinfo/?branch=master)
+![Build Status](https://github.com/simplesamlphp/simplesamlphp-module-modinfo/workflows/CI/badge.svg?branch=master)
+[![Coverage Status](https://codecov.io/gh/simplesamlphp/simplesamlphp-module-modinfo/branch/master/graph/badge.svg)](https://codecov.io/gh/simplesamlphp/simplesamlphp-module-modinfo)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/simplesamlphp/simplesamlphp-module-modinfo/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/simplesamlphp/simplesamlphp-module-modinfo/?branch=master)
 
 modinfo module
 ==============
