@@ -1,5 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
+namespace SimpleSAML\Module\modinfo;
+
+use SimpleSAML\Assert\Assert;
+use SimpleSAML\Module;
+
 /**
  * Hook to add the modinfo module to the frontpage.
  *
@@ -7,10 +14,10 @@
  */
 function modinfo_hook_frontpage(array &$links): void
 {
-    assert(array_key_exists("links", $links));
+    Assert::keyExists($links, "links");
 
     $links['config'][] = [
-        'href' => SimpleSAML\Module::getModuleURL('modinfo/'),
+        'href' => Module::getModuleURL('modinfo/'),
         'text' => '{modinfo:modinfo:modlist_header}',
     ];
 }

@@ -1,5 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
+namespace SimpleSAML\Module\modinfo;
+
+use SimpleSAML\Assert\Assert;
+
 /**
  * This hook lets the module describe itself.
  *
@@ -7,7 +13,7 @@
  */
 function modinfo_hook_moduleinfo(array &$moduleinfo): void
 {
-    assert(array_key_exists("info", $moduleinfo));
+    Assert::keyExists($moduleinfo, "info");
 
     $moduleinfo['info']['modinfo'] = [
         'name' => ['en' => 'Module information'],
