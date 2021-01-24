@@ -1,0 +1,3 @@
+modinfo-main:
+    path:       /
+    defaults:   { _controller: 'SimpleSAML\Module\modinfo\Controller\ModInfo::main' }

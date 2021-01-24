@@ -6,7 +6,7 @@
 >
     <projectFiles>
         <directory name="hooks" />
-        <directory name="www" />
+        <directory name="lib" />
     </projectFiles>
 
     <issueHandlers>
