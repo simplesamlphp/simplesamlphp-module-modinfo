@@ -2,6 +2,11 @@
 [![Coverage Status](https://codecov.io/gh/simplesamlphp/simplesamlphp-module-modinfo/branch/master/graph/badge.svg)](https://codecov.io/gh/simplesamlphp/simplesamlphp-module-modinfo)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/simplesamlphp/simplesamlphp-module-modinfo/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/simplesamlphp/simplesamlphp-module-modinfo/?branch=master)
 
+
+*** Note ***
+This module has been archived. All functionality is now part of the builtin admin-module.
+
+
 modinfo module
 ==============
 
